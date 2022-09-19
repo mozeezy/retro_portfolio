@@ -17,19 +17,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
       type="text/css"
     />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>My Portfolio</title>
   </head>
   <body>
     <nav
-      style="padding: 1rem; border-bottom: 3px solid #ccc; margin-bottom: 1rem"
     >
-      <div class="container" style="display: flex; justify-content: space-between;">
+      <div class="container" id="nav-bar-container" style="display: flex; justify-content: space-between;">
         <h2>
           <i class="snes-jp-logo"></i>
           Mohamed Mohamed
         </h2>
-        <div>
+        <div class="nav-buttons">
+          <div id="time"></div>
           <button type="button" class="nes-btn is-success" id="musicButton">Play Background Music</button>
         </div>
       </div>
@@ -42,8 +43,8 @@
 
     </nav>
 
-    <div class="container">
-      <div class="row">
+    <div class="container" >
+      <div class="row" id="header-container">
         <div class="col">
           <i class="nes-octocat animate"></i>
         </div>
@@ -57,7 +58,6 @@
         </div>
       </div>
     </div>
-    <br />
     <br />
 
     <div class="container">
