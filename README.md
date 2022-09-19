@@ -1,4 +1,4 @@
-## Introducting a Retro Version of my Personal Website
+## Introducting a Retro Version of my Personal Website!
 
 This app was created using pure HTML and a bit of JavaScript. The CSS was applied using a framework called NES.css
 
