@@ -1,5 +1,21 @@
 let mySong = document.getElementById("mySong");
 let musicButton = document.getElementById("musicButton");
+const toTop = document.querySelector(".scroll-btn");
+
+window.addEventListener("scroll", checkHeight);
+
+function checkHeight() {
+  if (window.scrollY > 200) {
+    toTop.style.display = "flex";
+  } else {
+    toTop.style.display = "none";
+  }
+}
+toTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+  });
+});
 
 musicButton.onclick = function () {
   if (mySong.paused) {

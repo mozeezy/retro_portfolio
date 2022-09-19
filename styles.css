@@ -2,6 +2,10 @@
   padding: 0.3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(https://www.transparenttextures.com/patterns/escheresque.png);
 }
@@ -25,6 +29,26 @@ nav {
 
 .container {
   padding: 0.5rem;
+}
+
+footer {
+  padding: 1rem;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.scroll-btn {
+  display: none;
+  position: fixed;
+  right: 2rem;
+  bottom: 1rem;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 60%);
+  transition: all 0.3s ease;
+}
+
+span {
+  display: block;
+  transform: rotateZ(90deg);
 }
 
 @media screen and (max-width: 600px) {
