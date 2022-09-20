@@ -2,7 +2,7 @@ let mySong = document.getElementById("mySong");
 let musicButton = document.getElementById("musicButton");
 const toTop = document.querySelector("#scroll-up");
 
-let soundClick = document.getElementById("clickity");
+let soundClick = document.querySelector(".is-primary");
 const SFX = document.getElementById("SFX");
 
 window.addEventListener("scroll", checkHeight);
