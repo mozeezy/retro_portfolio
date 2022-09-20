@@ -12,12 +12,12 @@ This app was created using pure HTML and a bit of JavaScript. The CSS was applie
 
 #### Desktop Version
 
-[!Desktop Version](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-desktop.png?raw=true)
+[!Desktop](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-desktop.png?raw=true)
 
 #### iPad Version
 
-[!iPad Version](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-ipad.png?raw=true)
+[!iPad](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-ipad.png?raw=true)
 
 #### iPhone Version
 
-[!iPhone Version](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-iphone.png?raw=true)
+[!iPhone](https://github.com/mozeezy/retro_portfolio/blob/main/assets/retro-iphone.png?raw=true)
