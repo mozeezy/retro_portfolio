@@ -37,7 +37,7 @@ footer {
   margin-bottom: 1rem;
 }
 
-.scroll-btn {
+#scroll-up {
   display: none;
   position: fixed;
   right: 2rem;

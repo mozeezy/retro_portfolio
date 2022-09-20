@@ -1,6 +1,6 @@
 let mySong = document.getElementById("mySong");
 let musicButton = document.getElementById("musicButton");
-const toTop = document.querySelector(".scroll-btn");
+const toTop = document.querySelector("#scroll-up");
 
 window.addEventListener("scroll", checkHeight);
 
