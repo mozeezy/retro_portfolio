@@ -2,6 +2,9 @@ let mySong = document.getElementById("mySong");
 let musicButton = document.getElementById("musicButton");
 const toTop = document.querySelector("#scroll-up");
 
+let soundClick = document.getElementById("clickity");
+const SFX = document.getElementById("SFX");
+
 window.addEventListener("scroll", checkHeight);
 
 function checkHeight() {
@@ -16,6 +19,10 @@ toTop.addEventListener("click", () => {
     top: 0,
   });
 });
+
+soundClick.onclick = function () {
+  SFX.play();
+};
 
 musicButton.onclick = function () {
   if (mySong.paused) {
