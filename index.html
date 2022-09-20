@@ -1,284 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-    <link
-      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
-      type="text/css"
-    />
-    <link rel="stylesheet" href="styles.css" />
 
-    <title>Mohamed Mohamed's Personal Portfolio Website</title>
-  </head>
-  <body>
-    <nav id="#"
-    >
-      <div class="container" id="nav-bar-container" style="display: flex; justify-content: space-between;">
-        <h2>
-          <i class="snes-jp-logo"></i>
-          Mohamed Mohamed
-        </h2>
-        <div class="nav-buttons">
-          <div id="time"></div>
-          <button type="button" class="nes-btn is-success" id="musicButton">Play Background Music</button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+    type="text/css" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Mohamed Mohamed's Personal Portfolio Website</title>
+</head>
+
+<body>
+  <nav id="#">
+    <div class="container" id="nav-bar-container" style="display: flex; justify-content: space-between;">
+      <h2>
+        <i class="snes-jp-logo"></i>
+        Mohamed Mohamed
+      </h2>
+      <div class="nav-buttons">
+        <div id="time"></div>
+        <button type="button" class="nes-btn is-success" id="musicButton">Play Background Music</button>
       </div>
+    </div>
 
-      <audio id="mySong">
-        <source src="assets/background-music.mp3" type="audio/mp3">
-      </audio>
+    <audio id="mySong">
+      <source src="assets/background-music.mp3" type="audio/mp3">
+    </audio>
 
-      
 
-    </nav>
 
-    <div class="container" >
-      <div class="row" id="header-container">
-        <div class="col">
-          <i class="nes-octocat animate"></i>
-        </div>
-        <div class="col-sm-9 col-xs-12">
-          <div class="nes-balloon from-left">
-            <p>
-              Hey! My name is Mohamed and Welcome to my Personal Website
-              <i class="nes-icon is-small star"></i>
-            </p>
-          </div>
+  </nav>
+
+  <div class="container">
+    <div class="row" id="header-container">
+      <div class="col">
+        <i class="nes-octocat animate"></i>
+      </div>
+      <div class="col-sm-9 col-xs-12">
+        <div class="nes-balloon from-left">
+          <p>
+            Hey! My name is Mohamed and Welcome to my Personal Website
+            <i class="nes-icon is-small star"></i>
+          </p>
         </div>
       </div>
     </div>
-    <br />
+  </div>
+  <br />
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <div class="nes-container with-title">
-            <h3 class="title">Summary</h3>
-            <p>An aspiring developer with a background in the sciences.</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="nes-container with-title">
+          <h3 class="title">Summary</h3>
+          <p>An aspiring developer with a background in the sciences.</p>
+        </div>
+        <br />
+        <div class="nes-container is-dark with-title">
+          <h3 class="title">Resume</h3>
+          <a class="nes-btn is-primary" href="assets/resume.pdf" rel="noreferrer" target="_blank">Browse My Resume</a>
+        </div>
+        <br />
+
+        <audio id="SFX">
+          <source src="assets/click-sfx.mp3" type="audio/mp3">
+
+        </audio>
+
+
+
+        <div class="nes-container with-title">
+          <h3 class="title">Socials</h3>
+          <div>
+            <a href="https://github.com/mozeezy">
+              <i class="nes-icon github"></i></a>
+
+            <a href="mailto:justmoe23@gmail.com">
+              <i class="nes-icon gmail"></i></a>
+
+            <a href="https://linkedin.com/in/mohamed-mohamed96/">
+              <i class="nes-icon linkedin"></i></a>
+          </div>
+        </div>
+        <br />
+        <div class="nes-container is-dark with-title">
+          <h3 class="title">Repository</h3>
+          <a class="nes-btn is-primary" href="https://github.com/mozeezy/retro_portfolio" rel="noreferrer"
+            target="_blank">Click here to go the repo</a>
+        </div>
+        <br />
+      </div>
+
+      <div class="col-md-8 col-sm-12 col-xs-12">
+        <div class="nes-container is-dark with-title">
+          <h3 class="title"><i class="nes-icon trophy is-small"></i> Projects</h3>
+          <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              <i class="nes-jp-logo"></i>
+            </div>
+
+            <div class="col-md-10 col-sm-12 col-xs-12">
+              <h4>Nipsey</h4>
+              <p>
+                A voice assisstant app that gives you an inspirational quote
+                using your voice. Created using Alan AI API and ZenQuotes.io
+                to fetch random quotes.
+              </p>
+              <a href="https://github.com/mozeezy/nipsey">
+                <i class="nes-icon github"></i></a>
+              <a href="https://nipsey.netlify.app/">
+                <i class="nes-icon google"></i></a>
+            </div>
           </div>
           <br />
-          <div class="nes-container is-dark with-title">
-            <h3 class="title">Resume</h3>
-            <a class="nes-btn is-primary" href="assets/resume.pdf" rel="noreferrer" target="_blank"
-            >Browse My Resume</a
-          >
+          <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              <i class="nes-logo"></i>
+            </div>
+
+            <div class="col-md-10 col-sm-12 col-xs-12">
+              <h4>aria.io</h4>
+              <p>
+                A voice assisstant app that allows users to navigate traffic
+                in Toronto. Created at HackTO 2022 Hackathon (Incomplete).
+              </p>
+              <a href="https://github.com/mozeezy/aria_frontend">
+                <i class="nes-icon github"></i></a>
+            </div>
           </div>
           <br />
+          <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+              <i class="snes-logo"></i>
+            </div>
 
+            <div class="col-md-10 col-sm-12 col-xs-12">
+              <h4>CryptoNite</h4>
+              <p>
+                A mock cryptocurrency app that allows you to trade different
+                cryptocurrencies and access news related to crypto.
+              </p>
+              <a href="https://github.com/mozeezy/cryptonite">
+                <i class="nes-icon github"></i></a>
+            </div>
+          </div>
+          <br />
+          <a class="nes-btn is-primary" href="more.html">View More Projects</a>
           <audio id="SFX">
             <source src="assets/click-sfx.mp3" type="audio/mp3">
 
           </audio>
-
-
-
-          <div class="nes-container with-title">
-            <h3 class="title">Socials</h3>
-            <div>
-              <a href="https://github.com/mozeezy">
-                <i class="nes-icon github"></i
-              ></a>
-
-              <a href="mailto:justmoe23@gmail.com">
-                <i class="nes-icon gmail"></i
-              ></a>
-
-              <a href="https://linkedin.com/in/mohamed-mohamed96/">
-                <i class="nes-icon linkedin"></i
-              ></a>
-            </div>
-          </div>
-          <br />
         </div>
+        <br />
+        <div class="nes-container with-title">
+          <h3 class="title">Frontend Development</h3>
+          <p>
+            HTML
+            <progress class="nes-progress is-pattern" value="100" max="100"></progress>
+          </p>
 
-        <div class="col-md-8 col-sm-12 col-xs-12">
-          <div class="nes-container is-dark with-title">
-            <h3 class="title"><i class="nes-icon trophy is-small"></i> Projects</h3>
-            <div class="row">
-              <div class="col-md-2 col-sm-12 col-xs-12">
-                <i class="nes-jp-logo"></i>
-              </div>
+          <p>
+            CSS
+            <progress class="nes-progress is-success" value="95" max="100"></progress>
+          </p>
 
-              <div class="col-md-10 col-sm-12 col-xs-12">
-                <h4>Nipsey</h4>
-                <p>
-                  A voice assisstant app that gives you an inspirational quote
-                  using your voice. Created using Alan AI API and ZenQuotes.io
-                  to fetch random quotes.
-                </p>
-                <a href="https://github.com/mozeezy/nipsey">
-                  <i class="nes-icon github"></i
-                ></a>
-                <a href="https://nipsey.netlify.app/">
-                  <i class="nes-icon google"></i
-                ></a>
-              </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-md-2 col-sm-12 col-xs-12">
-                <i class="nes-logo"></i>
-              </div>
+          <p>
+            JavaScript
+            <progress class="nes-progress is-success" value="85" max="100"></progress>
+          </p>
 
-              <div class="col-md-10 col-sm-12 col-xs-12">
-                <h4>aria.io</h4>
-                <p>
-                  A voice assisstant app that allows users to navigate traffic
-                  in Toronto. Created at HackTO 2022 Hackathon (Incomplete).
-                </p>
-                <a href="https://github.com/mozeezy/aria_frontend">
-                  <i class="nes-icon github"></i
-                ></a>
-              </div>
-            </div>
-            <br />
-            <div class="row">
-              <div class="col-md-2 col-sm-12 col-xs-12">
-                <i class="snes-logo"></i>
-              </div>
+          <p>
+            React
+            <progress class="nes-progress is-success" value="80" max="100"></progress>
+          </p>
 
-              <div class="col-md-10 col-sm-12 col-xs-12">
-                <h4>CryptoNite</h4>
-                <p>
-                  A mock cryptocurrency app that allows you to trade different
-                  cryptocurrencies and access news related to crypto.
-                </p>
-                <a href="https://github.com/mozeezy/cryptonite">
-                  <i class="nes-icon github"></i
-                ></a>
-              </div>
-            </div>
-            <br />
-            <a class="nes-btn is-primary" href="more.html"
-              >View More Projects</a
-            >
-            <audio id="SFX">
-              <source src="assets/click-sfx.mp3" type="audio/mp3">
-  
-            </audio>
+          <p>
+            jQuery
+            <progress class="nes-progress is-warning" value="55" max="100"></progress>
+          </p>
+        </div>
+        <br />
+
+        <div class="nes-container is-dark with-title">
+          <h3 class="title">Backend Development</h3>
+          <p>
+            NodeJS
+            <progress class="nes-progress is-success" value="85" max="100"></progress>
+          </p>
+          <p>
+            Express
+            <progress class="nes-progress is-success" value="85" max="100"></progress>
+          </p>
+          <p>
+            SQL
+            <progress class="nes-progress is-success" value="65" max="100"></progress>
+          </p>
+        </div>
+        <br />
+        <div class="nes-container with-title">
+          <h3 class="title">Misc.</h3>
+          <div class="lists">
+            <ul class="nes-list is-circle">
+              <li>Ruby</li>
+              <li>Ruby on Rails</li>
+              <li>MaterialUI</li>
+              <li>Bootstrap</li>
+              <li>PostgreSQL</li>
+              <li>Agile and Scrum</li>
+              ... and more
+            </ul>
           </div>
-          <br />
-          <div class="nes-container with-title">
-            <h3 class="title">Frontend Development</h3>
-            <p>
-              HTML
-              <progress
-                class="nes-progress is-pattern"
-                value="100"
-                max="100"
-              ></progress>
-            </p>
-
-            <p>
-              CSS
-              <progress
-                class="nes-progress is-success"
-                value="95"
-                max="100"
-              ></progress>
-            </p>
-
-            <p>
-              JavaScript
-              <progress
-                class="nes-progress is-success"
-                value="85"
-                max="100"
-              ></progress>
-            </p>
-
-            <p>
-              React
-              <progress
-                class="nes-progress is-success"
-                value="80"
-                max="100"
-              ></progress>
-            </p>
-
-            <p>
-              jQuery
-              <progress
-                class="nes-progress is-warning"
-                value="55"
-                max="100"
-              ></progress>
-            </p>
-          </div>
-          <br />
-
-          <div class="nes-container is-dark with-title">
-            <h3 class="title">Backend Development</h3>
-            <p>
-              NodeJS
-              <progress
-                class="nes-progress is-success"
-                value="85"
-                max="100"
-              ></progress>
-            </p>
-            <p>
-              Express
-              <progress
-                class="nes-progress is-success"
-                value="85"
-                max="100"
-              ></progress>
-            </p>
-            <p>
-              SQL
-              <progress
-                class="nes-progress is-success"
-                value="65"
-                max="100"
-              ></progress>
-            </p>
-          </div>
-          <br />
-          <div class="nes-container with-title">
-            <h3 class="title">Misc.</h3>
-            <div class="lists">
-              <ul class="nes-list is-circle">
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>MaterialUI</li>
-                <li>Bootstrap</li>
-                <li>PostgreSQL</li>
-                <li>Agile and Scrum</li>
-                ... and more
-              </ul>
         </div>
       </div>
-    </div>
-    <br />
-    <div>
-      <footer
-      ></footer>
-      <div class="container">
-        <h6>
-          © 2022 Mohamed Mohamed. All rights reserved. Created with NES.css.
-        </h6>
+      <br />
+      <div>
+        <footer></footer>
+        <div class="container">
+          <h6>
+            © 2022 Mohamed Mohamed. All rights reserved. Created with NES.css.
+          </h6>
+        </div>
+
+
       </div>
 
-
-    </div>
-
-      <button type="button" class="nes-btn is-error" id ="scroll-up">
-        <span><</span>
+      <button type="button" class="nes-btn is-error" id="scroll-up">
+        <span>
+          << /span>
       </button>
 
       <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
