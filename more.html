@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <link
       href="https://unpkg.com/nes.css@latest/css/nes.min.css"
       rel="stylesheet"
@@ -22,6 +22,7 @@
 
     <title>More Projects</title>
   </head>
+
   <body>
     <div class="container" style="padding-top: 1rem">
       <div class="nes-container with-title">
@@ -133,13 +134,18 @@
         <br />
 
         <a class="nes-btn is-primary" href="index.html">Back</a>
+        <audio id="SFX">
+          <source src="assets/click-sfx.mp3" type="audio/mp3" />
+        </audio>
       </div>
     </div>
     <footer></footer>
     <div class="container">
       <h6>
-        © 2023 Mohamed Mohamed. All rights reserved. Created with NES.css.
+        © <span id="year"></span> Mohamed Mohamed. All rights reserved. Created
+        with NES.css.
       </h6>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

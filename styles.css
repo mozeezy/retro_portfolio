@@ -37,6 +37,13 @@ footer {
   margin-bottom: 1rem;
 }
 
+#year {
+  transform: rotate(0deg);
+  max-width: fit-content;
+  display: inline;
+}
+
+
 #scroll-up {
   display: none;
   position: fixed;

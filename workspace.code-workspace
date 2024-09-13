@@ -1,16 +1,11 @@
 {
   "folders": [
 	{
-		"path": "../aws-cdk-project"
-	},
-	{
-		"path": "../serverless"
+		"path": "../rprt"
 	},
 	{
 		"path": "."
 	}
 ],
-  "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "ts-frontend-practice"
-  }
+  "settings": {}
 }
